@@ -25,6 +25,17 @@ Baseado no valor obtido através desse cálculo exiba as seguintes mensagens:
 - `SE` o `IMC` maior ou igual a `30`: Carlos você está acima do peso;
 - `SE` o `IMC` menor que `29.9`: Carlos você não está acima do peso;
 
+const nome = "Rafaela"
+const peso = 134
+const altura = 1.64
+const imc = peso / (altura * altura)
+
+if (imc >= 30) {
+    console.log (`Rafaela, você está acima do peso. O IMC foi de ${imc}, você tá gorda!`)
+} else {
+    console.log (`Rafaela, seu IMC foi de ${imc}, você não está acima do peso!`)
+}
+
 ## Cálculo de aposentadoria
 
 Crie um programa para calcular a aposentadoria de uma pessoa.
